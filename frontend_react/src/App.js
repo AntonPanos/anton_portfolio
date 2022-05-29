@@ -1,14 +1,11 @@
-import { About, Footer } from './container';
-import { images } from './constants';
+import { Navbar } from './components';
 
 import './App.scss';
 
 const App = () => {
   return (
     <div className='app'>
-      <About />
-      <Footer />
-      <img src={images.logo} alt='logo' />
+      <Navbar />
     </div>
   );
 };
